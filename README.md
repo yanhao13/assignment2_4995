@@ -39,7 +39,7 @@ Because the dataset is heavily imbalanced, overall Accuracy is a deceptive metri
 | **Recall** | 0.6079 | 0.6847 |
 | **F1-Score** | 0.2936 | 0.2544 |
 | **AUC-PR** | 0.2560 | 0.2112 |
-| **Training Time** | 10.09 sec | 28.17 sec |
+| **Training Time** | 9.47 sec | 29.25 sec |
 
 ### Key Insights
 1. **Predictive Power:** The GBDT comprehensively outperformed the MLP in underlying model intelligence (AUC-PR of 0.2560 vs. 0.2112). The GBDT successfully balanced catching true defaults (~61% Recall) while maintaining a healthy overall accuracy.
